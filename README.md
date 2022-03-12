@@ -1,6 +1,6 @@
 # laravel9 Docker Compose
 
-paket Fresh file laravel 9 with docker compose:
+Fresh file laravel 9 with docker compose:
   - nginx:stable-alpine
   - mysql:latest
   - php8:stable-alpine
