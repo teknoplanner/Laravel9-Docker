@@ -25,9 +25,9 @@ Generate Key app laravel
 run project on local browser
 > localhost:8080
 
-finish
 
 
+##################################################################
 notes: 
 
 Laravel + docker Special commad:
@@ -35,5 +35,7 @@ Laravel + docker Special commad:
 
 or
 > docker-compose run --rm install <"package,  for example npm">
+
+#################################################################
 
 
