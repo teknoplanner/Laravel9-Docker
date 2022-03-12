@@ -30,8 +30,8 @@ run project on local browser
 
 
 
-##################################################################
-notes: 
+
+#notes
 
 Laravel + docker Special commad:
 > docker-compose run --rm <"laravel command, for example migrate">
@@ -39,6 +39,6 @@ Laravel + docker Special commad:
 or
 > docker-compose run --rm install <"package,  for example npm">
 
-#################################################################
+
 
 
