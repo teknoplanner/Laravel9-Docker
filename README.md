@@ -33,4 +33,7 @@ notes:
 Laravel + docker Special commad:
 > docker-compose run --rm <"laravel command, for example migrate">
 
+or
+> docker-compose run --rm install <"package,  for example npm">
+
 
