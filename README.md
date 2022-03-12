@@ -9,7 +9,7 @@ Fresh file laravel 9 with docker compose:
   - artisan
 
 
-Docker-compose build nginx, mysql, and apche:
+Docker-compose build nginx, mysql, and php8:
 > docker-compose up -d --build
 
 Add file .env, find file in folder "src"
