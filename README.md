@@ -33,7 +33,7 @@ run project on local browser
 
 # notes
 
-Laravel + docker Special commad:
+Laravel + docker Special command:
 > docker-compose run --rm <"laravel command, for example migrate">
 
 or
