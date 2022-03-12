@@ -39,6 +39,15 @@ Laravel + docker Special command:
 or
 > docker-compose run --rm install <"package,  for example npm">
 
+# Build container or delete
+
+Build and running container
+> docker-compose up -d --build
+
+delete container
+> docker-compose down
+
+
 
 
 
