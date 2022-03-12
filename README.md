@@ -25,6 +25,11 @@ Generate Key app laravel
 run project on local browser
 > localhost:8080
 
+finish
+
+
+notes: 
+
 Laravel + docker Special commad:
 > docker-compose run --rm <"laravel command, for example migrate">
 
