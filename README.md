@@ -22,6 +22,9 @@ Copy file .env.example to .env
 Generate Key app laravel
 > docker-compose run --rm artisan key:generate
 
+Update folder /vendor and Auto load
+> docker-compose run --rm composer update
+
 run project on local browser
 > localhost:8080
 
