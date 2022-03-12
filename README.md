@@ -1,4 +1,4 @@
-# laravel9 Docker Compose
+# Laravel9 Docker Compose
 
 Fresh file laravel 9 with docker compose:
   - nginx:stable-alpine
@@ -18,8 +18,6 @@ Add file .env, find file in folder "src"
 Copy file .env.example to .env
 
 > cp env.example .env
-
-#notes
 
 Generate Key app laravel
 > docker-compose run --rm artisan key:generate
