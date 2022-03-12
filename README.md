@@ -8,9 +8,13 @@ paket Fresh file laravel 9 with docker compose:
 Docker-compose build nginx, mysql, and apche:
 > docker-compose up -d --build
 
-Copy file .env.example to .env
+Add file .env
+
 find file in "src"
 > cd src
+
+Copy file .env.example to .env
+
 > cp env.example .env
 
 Generate Key app laravel
