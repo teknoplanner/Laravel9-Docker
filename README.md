@@ -17,7 +17,7 @@ Add file .env, find file in folder "src"
 
 Copy file .env.example to .env
 
-> cp env.example .env
+> cp .env.example .env
 
 Generate Key app laravel
 > docker-compose run --rm artisan key:generate
