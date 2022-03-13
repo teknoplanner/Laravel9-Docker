@@ -29,6 +29,22 @@ run project on local browser
 > localhost:8080
 
 
+#  Add Vue.js
+
+update Laravel/ui, composer.json
+> docker-compose run --rm composer require laravel/ui
+
+install vue to project
+>  docker-compose run --rm artisan ui vue 
+
+install node.js
+>  docker-compose run --rm npm install --no-bin-links
+
+run development
+> docker-compose run --rm npm run dev  
+
+running npm watch
+>  docker-compose run --rm npm run watch-poll
 
 
 
@@ -47,6 +63,8 @@ Build and running container
 
 delete container
 > docker-compose down
+
+
 
 
 
