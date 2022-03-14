@@ -10,21 +10,20 @@ Fresh file laravel 9 with docker compose:
 
 
 
+Docker-compose build nginx, mysql, and php8:
+> docker-compose up -d --build
+
 Add file .env, find file in folder "src"
 > cd src
 
 Copy file .env.example to .env
-
 > cp .env.example .env
-
-Generate Key app laravel
-> docker-compose run --rm artisan key: generate
 
 Update folder /vendor and Auto load
 > docker-compose run --rm composer update
 
-Docker-compose build nginx, mysql, and php8:
-> docker-compose up -d --build
+Generate Key app laravel
+> docker-compose run --rm artisan key: generate
 
 run project on local browser
 > localhost:8080
