@@ -37,6 +37,9 @@ update Laravel/ui, composer.json
 install vue to project
 >  docker-compose run --rm artisan ui vue 
 
+npm installation
+>  docker-compose run --rm npm install 
+
 run development
 > docker-compose run --rm npm run dev  
 
