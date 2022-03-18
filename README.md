@@ -46,6 +46,10 @@ run development
 running npm watch
 >  docker-compose run --rm npm run watch-poll
 
+# add tailwind
+problem : npx 
+
+> USE CDN: https://tailwindcss.com/docs/installation/play-cdn
 
 
 # notes
